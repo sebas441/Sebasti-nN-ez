@@ -16,3 +16,8 @@ Construye un algoritmo que, al recibir como datos el ID del empleado y los seis 
 | ID | Identif | float| $ |  
 
 <img width="172" height="982" alt="Diagrama2 drawio" src="https://github.com/user-attachments/assets/36e4aa16-5156-43ed-ba09-7927ab8972a2" />
+
+# Ejercicio Cumpleaños
+
+<img width="438" height="822" alt="cumple drawio" src="https://github.com/user-attachments/assets/5206eb42-789f-45a2-9248-8f917ee396fe" />
+

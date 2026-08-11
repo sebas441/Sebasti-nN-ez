@@ -32,57 +32,57 @@ indicar "Motor frío – Calentar antes de operar".
  
 <img width="702" height="832" alt="Taller Ejercicio2 drawio (1)" src="https://github.com/user-attachments/assets/0d5a477a-b17d-4764-86b3-843adf9bda64" />  
 
-Bucles   
-1. **Registro de altitudes de vuelo**  
+Bucles     
+1. **Registro de altitudes de vuelo**    
     
-Un sistema debe registrar la altitud de vuelo cada 10 minutos durante una hora y mostrar todas las mediciones al final.  
+Un sistema debe registrar la altitud de vuelo cada 10 minutos durante una hora y mostrar todas las mediciones al final.    
 
-Inicio 
-cont = 0
-leer alt_max
-while alt_max sea >= max 0.1
-      cont = cont + 1     
-fin while
-Mostrar " Tiempo transcurrido " cont
-Fin
+Inicio   
+cont = 0  
+leer alt_max  
+while alt_max sea >= max 0.1  
+      cont = cont + 1      
+fin while  
+Mostrar " Tiempo transcurrido " cont  
+Fin  
 
-Bucles y Condicionales
+Bucles y Condicionales  
 
-2. **Control de temperatura en cabina**
+2. **Control de temperatura en cabina**  
 
-Un sistema mide cada 5 minutos la temperatura en cabina durante una hora. Si en algún momento se detecta una temperatura  
-mayor a 27°C o menor a 18°C, debe indicar que se active el sistema de climatización.   
+Un sistema mide cada 5 minutos la temperatura en cabina durante una hora. Si en algún momento se detecta una temperatura    
+mayor a 27°C o menor a 18°C, debe indicar que se active el sistema de climatización.     
 
-Inicio
-cont = 0
-Leer temp
-mientras cont < 12
-         si la temp >= 27 o temp <= 18
-         Mostrar " Activar climatización "
-         Fin si
-         cont = cont + 1 
-Fin mientras
-Fin
+Inicio  
+cont = 0  
+Leer temp  
+mientras cont < 12  
+         si la temp >= 27 o temp <= 18  
+         Mostrar " Activar climatización "  
+         Fin si  
+         cont = cont + 1   
+Fin mientras  
+Fin  
 
 Ejercicios mayor complejidad 
 
-Durante la aproximación, un sistema recibe datos de altitud y velocidad cada 5 segundos hasta el aterrizaje. Si la velocidad
-excede el valor máximo seguro o la altitud no desciende adecuadamente, debe indicarse un mensaje de corrección de maniobra.
+Durante la aproximación, un sistema recibe datos de altitud y velocidad cada 5 segundos hasta el aterrizaje. Si la velocidad  
+excede el valor máximo seguro o la altitud no desciende adecuadamente, debe indicarse un mensaje de corrección de maniobra.  
 Mostrar un resumen final de todos los avisos emitidos.
 
-Inicio 
-cont = 0
-leer vel, alt
-while altitud > 0
-      si velocidad > 250
-      Mostrar " Corregir altitud "
-      cont = cont + 1 
-      fin si
-leer new_alt, new_vel
-fin mientras 
-mostrar " Aterrizaje realizado "
-mostrar " resumen de avisos ", cont
-Fin
+Inicio   
+cont = 0  
+leer vel, alt  
+while altitud > 0  
+      si velocidad > 250  
+      Mostrar " Corregir altitud "  
+      cont = cont + 1   
+      fin si  
+leer new_alt, new_vel  
+fin mientras   
+mostrar " Aterrizaje realizado "  
+mostrar " resumen de avisos ", cont  
+Fin  
 
 
 

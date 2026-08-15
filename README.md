@@ -21,23 +21,23 @@ Construye un algoritmo que, al recibir como datos el ID del empleado y los seis 
 
 <img width="438" height="822" alt="cumple drawio" src="https://github.com/user-attachments/assets/5206eb42-789f-45a2-9248-8f917ee396fe" />
 
-## Taller Algoritmos  
+# Taller Algoritmos  
 
-#1. **Verificación de peso de despegue**  
+# 1. **Verificación de peso de despegue**  
     
-    En una pista de pruebas de aeronaves, el sistema debe verificar si el peso total de la aeronave, incluyendo combustible y carga,    
-   supera el límite máximo permitido para el despegue. Dependiendo del resultado, el sistema deberá indicar si la aeronave está lista    
-    para despegar o si debe reducir carga o combustible.  
+En una pista de pruebas de aeronaves, el sistema debe verificar si el peso total de la aeronave, incluyendo combustible y carga,    
+supera el límite máximo permitido para el despegue. Dependiendo del resultado, el sistema deberá indicar si la aeronave está lista    
+para despegar o si debe reducir carga o combustible.  
 
-   Inicio  
-   Escribir "Ingrese el peso total de la aeronave: "  
-   Leer peso  
-   Si peso <= máximo entonces  
-      Escribir "La aeronave esta lista para despegar"  
-   Si no  
-      Escribir "Debe reducir carga o combustible"  
-   Fin si  
-   Fin   
+Inicio  
+Escribir "Ingrese el peso total de la aeronave: "  
+Leer peso  
+Si peso <= máximo entonces  
+Escribir "La aeronave esta lista para despegar"  
+Si no  
+Escribir "Debe reducir carga o combustible"  
+Fin si  
+Fin   
  
 #2. **Control de temperatura del motor**    
     

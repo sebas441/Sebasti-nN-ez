@@ -19,4 +19,19 @@ numero = 1000
 while numero > 0:  
     if numero % 13 == 0:  
         print(numero)  
-    numero -= 1  
+    numero -= 1   
+
+# Pide un texto al usuario y le permite acceso si el password es correcto si no, le sigue preguntando además le contara los intentos fallidos.  
+password = "h123-"
+
+password = "h123-"
+contador = 0
+
+password = str("Ingrese su password: ")
+if  password == False:
+    print("Intente nuevamente: ")
+    contador = contador + 1
+elif password == True:
+    print("siga adelante"), contador
+
+# Esta mal corregir 😊

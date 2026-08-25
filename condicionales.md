@@ -95,31 +95,31 @@ else:
     resultado = "No ejecutado"  
 print(f"{a} {oper} {b} = {resultado} ")  
 
-## Otro pero con case
-a = float(input("Ingrese número 1: "))
-oper = input("Ingresa la operación deseada +,-,*,/, ^: ")
-b = float(input("Ingrese número 2: "))
+## Otro pero con case   
+a = float(input("Ingrese número 1: "))  
+oper = input("Ingresa la operación deseada +,-,*,/, ^: ")   
+b = float(input("Ingrese número 2: "))   
 
-# match oper:
+# match oper:   
 
-    case '+':
-        resultado = a + b
-    case '-':
-        resultado = a - b
-    case '*':
-        resultado = a * b
-    case '/':
-        if b == 0:
-            print("Sintax error")    ## Averiguar el error
-    case '/': 
-            resultado = a / b 
-    case '^':
-        resultado = a ** b
-    case _:
-        print("Sintax error")
-        resultado = "No ejecutado"
-print(f"{a} {oper} {b} = {resultado} ")
-
+    case '+':  
+        resultado = a + b  
+    case '-':  
+        resultado = a - b  
+    case '*':  
+        resultado = a * b  
+    case '/':  
+        if b == 0:  
+            print("Sintax error")    ## Averiguar el error  
+    case '/':   
+            resultado = a / b   
+    case '^':   
+        resultado = a ** b    
+    case _:    
+        print("Sintax error")   
+        resultado = "No ejecutado"   
+print(f"{a} {oper} {b} = {resultado} ")    
+  
 
 
 

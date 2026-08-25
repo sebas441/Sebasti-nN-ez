@@ -95,8 +95,8 @@ print(f"{a} {oper} {b} = {resultado} ")
 
 ## Otro pero con case
 a = float(input("Ingrese número 1: "))
-# oper = input("Ingresa la operación deseada +,-,*,/, ^: ")
-# b = float(input("Ingrese número 2: "))
+oper = input("Ingresa la operación deseada +,-,*,/, ^: ")
+b = float(input("Ingrese número 2: "))
 
 # match oper:
 

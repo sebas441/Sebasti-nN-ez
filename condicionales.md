@@ -76,9 +76,11 @@ print(f"Usted está en la etapa: {etapa} ")
 ## Ejercicio Calculadora  
 
 a = float(input("Ingrese número 1: "))  
-oper = input("Ingresa la operación deseada +,-,*,/, ^: ")  
-b = float(input("Ingrese número 2: "))  
-if oper == '+':  
+
+oper = input("Ingresa la operación deseada +,-,*,/, ^: ") 
+
+b = float(input("Ingrese número 2: "))    
+if oper == '+':    
     resultado = a + b  
 elif oper == '-':  
     resultado = a - b  
